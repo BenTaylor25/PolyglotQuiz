@@ -23,6 +23,9 @@ foreach question in questions {
 			incorrectGuesses += 10
 		} else if guess != question['a'] {
 			incorrectGuesses++
+		} else {
+			println("correct")
+			println()
 		}
 	}
 }
