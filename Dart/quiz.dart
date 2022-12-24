@@ -10,6 +10,10 @@ void main() {
       'q': "Who were the original project leads for Dart?",
       'a': "Lars Bak and Kasper Lund"
     },
+    {
+      'q': "What is the standart typing style for variables in Dart?",
+      'a': "camelCase"
+    },
   ];
 
   var incorrectGuesses = 0;
