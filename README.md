@@ -4,33 +4,37 @@ Questions will be related to the given language (e.g. What year was <language> r
 
 ## Pseudocode
 ```
-const questions = [
-	{ 'q': "question 1", 'a': "answer 1" },
-	{ 'q': "question 2", 'a': "answer 2" },
-	...
-]
+func main() {
+	const questions = [
+		{ 'q': "question 1", 'a': "answer 1" },
+		{ 'q': "question 2", 'a': "answer 2" },
+		...
+	]
 
-var incorrectGuesses = 0
+	var incorrectGuesses = 0
 
-foreach question in questions {
-	println(question['q'])
+	foreach question in questions {
+		println(question['q'])
 
-	var guess = ""
-	while guess != question['a'] && guess != "skip" {
-		guess = input("> ")
+		var guess = ""
+		while guess != question['a'] && guess != "skip" {
+			guess = input("> ")
 
-		if guess == "skip" {
-			incorrectGuesses += 10
-		} else if guess != question['a'] {
-			incorrectGuesses++
-		} else {
-			println("correct")
-			println()
+			if guess == "skip" {
+				incorrectGuesses += 10
+			} else if guess != question['a'] {
+				incorrectGuesses++
+			} else {
+				println("correct")
+				println()
+			}
 		}
 	}
+
+	println("Incorrect Guesses: " + toString(incorrect Guesses))
 }
 
-println("Incorrect Guesses: " + toString(incorrect Guesses))
+main()
 ```
 
 
