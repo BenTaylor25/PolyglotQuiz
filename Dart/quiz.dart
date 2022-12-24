@@ -11,7 +11,7 @@ void main() {
       'a': "Lars Bak and Kasper Lund"
     },
     {
-      'q': "What is the standart typing style for variables in Dart?",
+      'q': "What is the standard typing style for variables in Dart?",
       'a': "camelCase"
     },
   ];
