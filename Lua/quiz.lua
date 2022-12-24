@@ -31,6 +31,7 @@ function main()
 
             if guess == "skip" then
                 incorrect_guesses = incorrect_guesses + 10
+                print(question['a'])
                 print()
             elseif guess ~= question['a'] then
                 incorrect_guesses = incorrect_guesses + 1

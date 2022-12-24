@@ -40,6 +40,7 @@ namespace PolyglotQuiz
                     if (guess == "skip")
                     {
                         incorrectGuesses += 10;
+                        Console.WriteLine(question.A);
                         Console.WriteLine();
                     }
                     else if (guess != question.A)

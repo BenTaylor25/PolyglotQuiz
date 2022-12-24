@@ -31,6 +31,7 @@ def main()
 
             if guess == "skip" then
                 incorrect_guesses += 10
+                puts question['a']
                 puts
             elsif guess != question['a'] then
                 incorrect_guesses += 1

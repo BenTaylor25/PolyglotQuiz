@@ -22,6 +22,7 @@ func main() {
 
 			if guess == "skip" {
 				incorrectGuesses += 10
+				println(question['a'])
 				println()
 			} else if guess != question['a'] {
 				incorrectGuesses++
