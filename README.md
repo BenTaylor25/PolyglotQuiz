@@ -37,5 +37,21 @@ func main() {
 main()
 ```
 
+### Done
+- Python
+- Dart
+- Ruby
+- Lua (in progress)
 
-
+### To Do
+- C#
+- Java
+- C
+- C++
+- Swift
+- Kotlin
+- JavaScript
+- TypeScript
+- Go
+- Rust
+- Visual Basic
