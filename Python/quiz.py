@@ -39,6 +39,7 @@ def main():
 
             if guess == "skip":
                 incorrect_guesses += 10
+                print()
             elif guess != question['a']:
                 incorrect_guesses += 1
             else:

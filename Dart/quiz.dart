@@ -28,6 +28,7 @@ void main() {
 
       if (guess == "skip") {
         incorrectGuesses += 10;
+        print("");
       } else if (guess != question['a']) {
         incorrectGuesses++;
       } else {
