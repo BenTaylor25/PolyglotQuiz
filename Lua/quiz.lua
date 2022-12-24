@@ -1,8 +1,22 @@
 
 function main()
     local questions = {
-        {q = "q1", a = "a1"},
-        {q = "q2", a = "a2"}
+        {
+            q = "In what year was Lua released?", 
+            a = "1993"
+        }, {
+            q = "What group created Lua?", 
+            a = "Tecgraf"
+        }, {
+            q = "How many reserved keywords does Lua have?", 
+            a="21"
+        }, {
+            q = "How do you denote a sigle line comment in Lua?", 
+            a="--"
+        }, {
+            q = "What is the standard typing style for Variables in Lua?", 
+            a="snake_case"
+        }
     }
 
     local incorrect_guesses = 0
