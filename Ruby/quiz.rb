@@ -1,8 +1,22 @@
 
 def main()
     questions = [
-        {'q' => "q1", 'a' => "a1"},
-        {'q' => "q2", 'a' => "a2"},
+        {
+            'q' => "In what year was Ruby first released?", 
+            'a' => "1995"
+        }, {
+            'q' => "In what year was Ruby 1.0 released?",
+            'a' => "1996"
+        },{
+            'q' => "Who is the creator of Ruby?", 
+            'a' => "Yukihiro Matsumoto"
+        }, {
+            'q' => "What framework helped Ruby become successful?",
+            'a' => "Ruby on Rails"
+        }, {
+            'q' => "What is the standard typing style for variables in Ruby?",
+            'a' => "snake_case"
+        }
     ]
 
     incorrect_guesses = 0
