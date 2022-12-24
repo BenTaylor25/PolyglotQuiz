@@ -2,8 +2,14 @@ import 'dart:io';
 
 void main() {
   var questions = [
-    {'q': "q1", 'a': "a1"},
-    {'q': "q2", 'a': "a2"},
+    {'q': "In what year was Dart first released?", 'a': "2011"},
+    {'q': "In what year was Dart 1.0 released?", 'a': "2013"},
+    {'q': "Which organisation developed Dart?", 'a': "Google"},
+    {'q': "What framework helped Dart become successful?", 'a': "Flutter"},
+    {
+      'q': "Who were the original project leads for Dart?",
+      'a': "Lars Bak and Kasper Lund"
+    },
   ];
 
   var incorrectGuesses = 0;
