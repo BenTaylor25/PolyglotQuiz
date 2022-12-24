@@ -41,7 +41,7 @@ main()
 - Python
 - Dart
 - Ruby
-- Lua (in progress)
+- Lua
 
 ### To Do
 - C#
