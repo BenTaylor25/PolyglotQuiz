@@ -18,8 +18,11 @@ namespace PolyglotQuiz
         {
             QuestionAnswer[] questions = new QuestionAnswer[] 
             {
-                new QuestionAnswer("q1", "a1"),
-                new QuestionAnswer("q2", "a2")
+                new QuestionAnswer("In what year was C# released?", "2000"),
+                new QuestionAnswer("Who was the lead designer of C#?", "Anders Hejlsberg"),
+                new QuestionAnswer("How many reserved keywords does C# have?", "79"),
+                new QuestionAnswer("What is the standard typing style for local variables in C#?", "camelCase"),
+                new QuestionAnswer("What is the standard typing style for properties in C#?", "PascalCase"),
             };
 
             int incorrectGuesses = 0;
