@@ -54,6 +54,8 @@ namespace PolyglotQuiz
                     }
                 }
             }
+
+            Console.WriteLine("Incorrect Guesses: " + incorrectGuesses.ToString());
         }
     }
 }
