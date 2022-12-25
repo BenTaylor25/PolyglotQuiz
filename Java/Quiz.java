@@ -15,8 +15,11 @@ class QuestionAnswer {
 public class Quiz {
     public static void main(String[] args) throws IOException {
         QuestionAnswer[] questions = new QuestionAnswer[] {
-            new QuestionAnswer("q1", "a1"),
-            new QuestionAnswer("q2", "a2"),
+            new QuestionAnswer("In what year was Java first released?", "1995"),
+            new QuestionAnswer("In what year was Java 1.0 released?", "1996"),
+            new QuestionAnswer("Who was the lead designer of Java?", "James Gosling"),
+            new QuestionAnswer("How many reserved keywords does Java have?", "67"),
+            new QuestionAnswer("What is the standard typing style for local variables in Java?", "camelCase"),
         };
 
         int incorrectGuesses = 0;
