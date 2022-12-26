@@ -47,6 +47,7 @@ main()
 - C#
 - Java
 - C
+- Rust
 
 ### To Do
 - C++
@@ -55,5 +56,4 @@ main()
 - JavaScript
 - TypeScript
 - Go
-- Rust
 - Visual Basic
