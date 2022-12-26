@@ -7,8 +7,13 @@ struct QuestionAnswer {
 
 fn main() {
     let questions = [
-        QuestionAnswer { q: "q1".to_string(), a: "a1".to_string() },
-        QuestionAnswer { q: "q2".to_string(), a: "a2".to_string() },
+        QuestionAnswer { q: "When was the Rust project first started?".to_string(), a: "2006".to_string() },
+        QuestionAnswer { q: "When was Rust officially announced?".to_string(), a: "2010".to_string() },
+        QuestionAnswer { q: "Who was the lead designer of Rust?".to_string(), a: "Graydon Hoare".to_string() },
+        QuestionAnswer { 
+            q: "What is the standardtyping style for variables in Rust".to_string(),
+            a: "snake_case".to_string()
+        },
     ];
 
     let mut incorrect_guesses = 0;
