@@ -8,8 +8,11 @@ typedef struct {
 
 int main() {
     question_answer questions[] = {
-        {"q1", "a1"},
-        {"q2", "a2"},
+        {"In what year was C first released?", "1972"},
+        {"Who was the lead designer of C?", "Dennis Ritchie"},
+        {"Who co-authoured The C Programming Language with the lead designer?", "Brian Kernighan"},
+        {"How many reserved keywords does C have?", "32"},
+        {"What is the standard typing style for variables in C?", "snake_case"},
     };
 
     int incorrect_guesses = 0;
