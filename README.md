@@ -45,10 +45,10 @@ main()
 - Ruby
 - Lua
 - C#
-
-### To Do
 - Java
 - C
+
+### To Do
 - C++
 - Swift
 - Kotlin
