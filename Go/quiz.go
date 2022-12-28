@@ -5,6 +5,7 @@ import (
 	"bufio"
 	"os"
 	"strings"
+	"strconv"
 )
 
 func main() {
@@ -42,6 +43,6 @@ func main() {
 
 	}
 
-	fmt.Println(incorrectGuesses)
+	fmt.Println("Incorrect Guesses: "+ strconv.Itoa(incorrectGuesses))
 
 }
