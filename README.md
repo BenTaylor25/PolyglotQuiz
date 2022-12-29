@@ -18,7 +18,8 @@ func main() {
 
 		var guess = ""
 		while guess != question['a'] && guess != "skip" {
-			guess = input("> ")
+			print("> ")
+			guess = input()
 
 			if guess == "skip" {
 				incorrectGuesses += 10
