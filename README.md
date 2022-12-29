@@ -1,6 +1,6 @@
 # Polyglot Quiz
 Simple Quiz program in several different languages.  
-Questions will be related to the given language (e.g. What year was <language> released?).
+Questions will be related to the given language (e.g. What year was \<language\> released?).
 
 ## Pseudocode
 ```
