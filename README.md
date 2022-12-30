@@ -50,11 +50,11 @@ main()
 - C
 - Rust
 - Go
+- Kotlin
 
 ### To Do
 - C++
 - Swift
-- Kotlin
 - JavaScript
 - TypeScript
 - Visual Basic
