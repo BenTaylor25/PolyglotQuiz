@@ -51,9 +51,9 @@ main()
 - Rust
 - Go
 - Kotlin
+- C++
 
 ### To Do
-- C++
 - Swift
 - JavaScript
 - TypeScript
