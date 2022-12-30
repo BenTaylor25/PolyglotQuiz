@@ -8,8 +8,11 @@ data class QuestionAnswer (
 fun main() {
 
     var questions = arrayOf(
-        QuestionAnswer("q1", "a1"),
-        QuestionAnswer("q2", "a2")
+        QuestionAnswer("In what year was Kotlin first released?", "2011"),
+        QuestionAnswer("In what year was Kotlin 1.0 released?", "2016"),
+        QuestionAnswer("What organisation is responsible for Kotlin?", "JetBrains"),
+        QuestionAnswer("Who was the lead designer of Kotlin?", "Andrey Breslav"),
+        QuestionAnswer("What language was Kotlin intended to be 'better than'?", "Java")
     );
 
     var incorrectGuesses = 0
