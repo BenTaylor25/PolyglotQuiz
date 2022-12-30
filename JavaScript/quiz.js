@@ -3,8 +3,10 @@ const prompt = require('prompt-sync')({sigint: true});
 
 function main() {
     const questions = [
-        {"q": "q1", "a": "a1"},
-        {"q": "q2", "a": "a2"},
+        {"q": "In what year was JavaScript first released?", "a": "1995"},
+        {"q": "Who was the lead designer of JavaScript?", "a": "Brenden Eich"},
+        {"q": "How long did it take to develop the first version of JavaScript?", "a": "10 days"},
+        {"q": "What is the most common backend runtime for JavaScript?", "a": "node"},
     ];
 
     let incorrectGuesses = 0;
