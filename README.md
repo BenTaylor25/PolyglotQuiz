@@ -52,9 +52,9 @@ main()
 - Go
 - Kotlin
 - C++
+- JavaScript
 
 ### To Do
 - Swift
-- JavaScript
 - TypeScript
 - Visual Basic
