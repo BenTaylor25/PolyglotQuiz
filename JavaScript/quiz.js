@@ -32,6 +32,6 @@ function main() {
         }
     });
 
-    console.log("Incorrect Guesses: " + incorrectGuesses);
+    console.log("Incorrect Guesses: " + incorrectGuesses.toString());
 }
 main();
