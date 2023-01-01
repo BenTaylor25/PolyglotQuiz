@@ -53,8 +53,8 @@ main()
 - Kotlin
 - C++
 - JavaScript
+- TypeScript
 
 ### To Do
 - Swift
-- TypeScript
 - Visual Basic
