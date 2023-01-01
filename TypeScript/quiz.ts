@@ -7,8 +7,11 @@ type QuestionAnswer = {
 
 function main() {
     const questions: QuestionAnswer[] = [
-        {q: "q1", a: "a1"},
-        {q: "q2", a: "a2"},
+        {q: "In what year was TypeScript first released?", a: "2012"},
+        {q: "In what year was TypeScript 1.0 released?", a: "2014"},
+        {q: "What organisation is responsible for TypeScript?", a: "Microsoft"},
+        {q: "What is the primary feature that TypeScript adds?", a: "static typing"},
+        {q: "Who was the lead designer of TypeScript?", a: "Anders Hejlsberg"},
     ]
 
     let incorrectGuesses = 0;
