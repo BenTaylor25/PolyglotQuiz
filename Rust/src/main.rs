@@ -11,7 +11,7 @@ fn main() {
         QuestionAnswer { q: "When was Rust officially announced?".to_string(), a: "2010".to_string() },
         QuestionAnswer { q: "Who was the lead designer of Rust?".to_string(), a: "Graydon Hoare".to_string() },
         QuestionAnswer { 
-            q: "What is the standardtyping style for variables in Rust".to_string(),
+            q: "What is the standard typing style for variables in Rust".to_string(),
             a: "snake_case".to_string()
         },
     ];
