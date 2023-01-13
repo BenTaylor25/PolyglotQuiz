@@ -54,7 +54,8 @@ main()
 - C++
 - JavaScript
 - TypeScript
+- Swift
 
 ### To Do
-- Swift
+- Objective-C
 - Visual Basic
