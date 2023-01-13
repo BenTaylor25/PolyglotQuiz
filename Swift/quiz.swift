@@ -6,8 +6,10 @@ struct QuestionAnswer {
 
 func main() {
     let questions = [
-        QuestionAnswer(q: "q1", a: "a1"),
-        QuestionAnswer(q: "q2", a: "a2"),
+        QuestionAnswer(q: "In what year was Swift first released?", a: "2014"),
+        QuestionAnswer(q: "Which individual is credited with the creation of Swift?", a: "Chris Lattner"),
+        QuestionAnswer(q: "What organisation is responsible for Swift?", a: "Apple"),
+        QuestionAnswer(q: "What language was Swift intended to replace?", a: "Objective-C"),
     ]
 
     var incorrectGuesses = 0
