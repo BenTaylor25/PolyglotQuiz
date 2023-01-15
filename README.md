@@ -55,6 +55,7 @@ main()
 - JavaScript
 - TypeScript
 - Swift
+- Fuze4NS
 
 ### To Do
 - Objective-C
