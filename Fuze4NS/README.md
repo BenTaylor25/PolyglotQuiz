@@ -12,4 +12,4 @@ the other languages do.
 But then I decided to do it anyway :)
 
 If you want to see what Fuze4NS is really capable of,
-I highly recommend checking out the [Fuze Arena YouTube Channel]("https://youtube.com/@FUZEArena").
+I highly recommend checking out the Fuze Arena YouTube Channel: https://www.youtube.com/@FUZEArena.
