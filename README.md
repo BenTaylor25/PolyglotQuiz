@@ -40,6 +40,14 @@ func main() {
 main()
 ```
 
+Many languages do not require a main function to execute.  
+In such languages I have used a function called main anyway
+to explore function syntax in the given language.  
+In a similar vein, most languages do not require explicit
+integer->string conversion in order to output int values,
+but I have chosen to include it to explore how the language
+uses type conversion.
+
 ### Done
 - Python
 - Dart
