@@ -1,0 +1,48 @@
+
+function main()
+    questions = [
+        [ .q = "In what year was Fuze4NS released?", .a = "2019" ],
+        [ .q = "What organisation is responsible for Fuze4NS, .a = "Fuze Technologies" ],
+        [ .q = "Who is the project leader of Fuze4NS?", .a = "Jon Silvera" ],
+        [ .q = "Who wrote most of the official documentation for Fuze4NS?", .a = "Dave Silvera" ],
+        [ .q = "Who was the lead developer for Fuze4NS?", .a = "Luke Mulcahy" ]
+    ]
+
+    incorrectGuesses = 0
+
+    for i = 0 to len(questions) loop
+        question = questions[i]
+        print(question.q)
+        print()
+
+        guess = ""
+        while guess != question.a and guess != "skip" loop
+            print("> ")
+            guess = input()
+            print(guess)
+            print()
+
+            if guess == "skip" then
+                incorrectGuesses += 10
+                print(question.a)
+                print()
+                print()
+            else
+                if guess != question.a then
+                    incorrectGuesses += 1
+                else
+                    print("Correct")
+                    print()
+                    print()
+                endif
+            endif
+        repeat
+    repeat
+
+    print("Incorrect Guesses: " + str(incorrectGuesses))
+
+    update()
+    while !controls(0).a loop repeat
+return void
+
+main()
