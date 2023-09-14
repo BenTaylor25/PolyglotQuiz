@@ -20,24 +20,27 @@ pub fn main() !void {
         }
     };
 
-    var incorrect_guesses = 0;
+    var incorrect_guesses: i32 = 0;
 
     for (questions) |question| {
         try stdout.print("{s}\n", .{question.q});
 
-        var guess = "";
+        var guess = "";   // doesn't like this combined with line 35...
 
-        while (guess != "skip" and guess != question.a) {
-            try stdout.print("> ");
+        // while (guess != "skip" and guess != question.a) {
+        while (!std.mem.eql(u8, guess, "skip") and !std.mem.eql(u8, guess, question.a)) {
+            try stdout.print("> ", .{});
 
             var buf: [100]u8 = undefined;
             guess = try stdin.readUntilDelimiterOrEof(buf[0..], '\n') orelse "";
 
             // fix string comparison - std.mem.eql()?
-            if (guess == "skip") {
+            // if (guess == "skip") {
+            if (std.mem.eql(u8, guess, "skip")) {
                 incorrect_guesses += 10;
                 stdout.print("{s}\n", .{question.a});
-            } else if (guess != question.a) {
+            // } else if (guess != question.a) {
+            } else if (!std.mem.eql(u8, guess, question.a)) {
                 incorrect_guesses += 1;
             } else {
                 stdout.print("Correct\n", .{});
@@ -45,5 +48,5 @@ pub fn main() !void {
         }
     }
 
-    stdout.print("Incorrect Guesses: {i}", incorrect_guesses);
+    try stdout.print("Incorrect Guesses: {s}\n", .{incorrect_guesses});
 }
